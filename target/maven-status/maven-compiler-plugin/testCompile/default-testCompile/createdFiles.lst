@@ -1,0 +1,10 @@
+src\com\pack\common\tests\ADeletePageTest.class
+src\com\pack\common\tests\ADealCreateTest.class
+src\com\pack\common\tests\CDealCreateTest.class
+src\com\pack\common\tests\IconPageTest.class
+src\com\pack\common\tests\RegistrationTest.class
+src\com\pack\common\tests\AInvestonDealTest.class
+src\com\pack\common\tests\LoginPageTest.class
+src\com\pack\common\tests\SignUpTest.class
+src\com\pack\common\tests\ADealInvestorPageTest.class
+src\com\pack\common\tests\DealViewTest.class

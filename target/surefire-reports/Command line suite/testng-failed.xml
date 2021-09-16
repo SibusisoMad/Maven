@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="src.com.pack.common.tests.IconPageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="NotificationSet"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.IconPageTest -->
+      <class name="src.com.pack.common.tests.CDealCreateTest">
+        <methods>
+          <include name="dealDetails"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.CDealCreateTest -->
+      <class name="src.com.pack.common.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="CheckLoginPageTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.LoginPageTest -->
+      <class name="src.com.pack.common.tests.DealViewTest">
+        <methods>
+          <include name="InvitationsDeal"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.DealViewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

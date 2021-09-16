@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="uCompany" value="aihuddle"/>
+  <parameter name="cURL" value="https://tic-client-uat.azurewebsites.net/"/>
+  <parameter name="aURL" value="https://tic-admin-uat.azurewebsites.net/"/>
+  <parameter name="aUser" value="TU00000001"/>
+  <parameter name="cPassword" value="!Password1"/>
+  <parameter name="sitename" value="iHuddle"/>
+  <parameter name="aPassword" value="Tu00000001"/>
+  <parameter name="browserType" value="param-val-not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="src.com.pack.common.tests.RegistrationTest">
+        <methods>
+          <include name="documents"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="contactInfo"/>
+          <include name="tearDown"/>
+          <include name="selfAccredition"/>
+          <include name="bankDetail"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.RegistrationTest -->
+      <class name="src.com.pack.common.tests.ADealCreateTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="CreateDealAdmin"/>
+          <include name="MandatoryFieldDeal"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.ADealCreateTest -->
+      <class name="src.com.pack.common.tests.ADeletePageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="adeleteInvestorImage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="bdeleteDeal"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.ADeletePageTest -->
+      <class name="src.com.pack.common.tests.AInvestonDealTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="cverifyAmountInvestor"/>
+          <include name="bInvestonDeal"/>
+          <include name="dDeleteInvestment"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="aUploadDocumentOnDeal"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.AInvestonDealTest -->
+      <class name="src.com.pack.common.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="CheckLoginPageTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.LoginPageTest -->
+      <class name="src.com.pack.common.tests.DealViewTest">
+        <methods>
+          <include name="InvitationsDeal"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="OpenHuddlesDeal"/>
+          <include name="setUp"/>
+          <include name="MyOriginationDeal"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.DealViewTest -->
+      <class name="src.com.pack.common.tests.SignUpTest">
+        <methods>
+          <include name="verifyuserinAdmin"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Signup"/>
+          <include name="tearDown"/>
+          <include name="VerifyEmail"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.SignUpTest -->
+      <class name="src.com.pack.common.tests.CDealCreateTest">
+        <methods>
+          <include name="dealDetails"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.CDealCreateTest -->
+      <class name="src.com.pack.common.tests.ADealInvestorPageTest">
+        <methods>
+          <include name="updateContactDetail"/>
+          <include name="verifyuserinAdmin"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="AddDepositAmount"/>
+          <include name="updateRegistrationStatus"/>
+          <include name="tearDown"/>
+          <include name="UploadUserDocuments"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.ADealInvestorPageTest -->
+      <class name="src.com.pack.common.tests.IconPageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="MyProfileDetails"/>
+          <include name="tearDown"/>
+          <include name="NotificationSet"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.IconPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

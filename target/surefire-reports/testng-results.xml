@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-16T17:07:45Z" name="Command line suite" finished-at="2021-09-16T17:07:49Z" duration-ms="4061">
+    <groups>
+      <group name="Update_Investor_Contact_inAdmin">
+        <method signature="ADealInvestorPageTest.updateContactDetail()[pri:20, instance:src.com.pack.common.tests.ADealInvestorPageTest@13eb8acf]" name="updateContactDetail" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+        <method signature="ADealInvestorPageTest.updateRegistrationStatus()[pri:30, instance:src.com.pack.common.tests.ADealInvestorPageTest@13eb8acf]" name="updateRegistrationStatus" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- Update_Investor_Contact_inAdmin -->
+      <group name="DeleteImage">
+        <method signature="ADeletePageTest.adeleteInvestorImage()[pri:10, instance:src.com.pack.common.tests.ADeletePageTest@51c8530f]" name="adeleteInvestorImage" class="src.com.pack.common.tests.ADeletePageTest"/>
+      </group> <!-- DeleteImage -->
+      <group name="SignUp">
+        <method signature="SignUpTest.Signup()[pri:10, instance:src.com.pack.common.tests.SignUpTest@289d1c02]" name="Signup" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- SignUp -->
+      <group name="Check_User_inAdmin">
+        <method signature="ADealInvestorPageTest.verifyuserinAdmin()[pri:10, instance:src.com.pack.common.tests.ADealInvestorPageTest@13eb8acf]" name="verifyuserinAdmin" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+        <method signature="SignUpTest.verifyuserinAdmin()[pri:20, instance:src.com.pack.common.tests.SignUpTest@289d1c02]" name="verifyuserinAdmin" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- Check_User_inAdmin -->
+      <group name="Document">
+        <method signature="RegistrationTest.documents()[pri:40, instance:src.com.pack.common.tests.RegistrationTest@2a70a3d8]" name="documents" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- Document -->
+      <group name="EmailVerify">
+        <method signature="SignUpTest.VerifyEmail()[pri:30, instance:src.com.pack.common.tests.SignUpTest@289d1c02]" name="VerifyEmail" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- EmailVerify -->
+      <group name="Create_Deal_inAdmin">
+        <method signature="ADealCreateTest.CreateDealAdmin()[pri:20, instance:src.com.pack.common.tests.ADealCreateTest@543c6f6d]" name="CreateDealAdmin" class="src.com.pack.common.tests.ADealCreateTest"/>
+      </group> <!-- Create_Deal_inAdmin -->
+      <group name="Deal View Invitations">
+        <method signature="DealViewTest.InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" name="InvitationsDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View Invitations -->
+      <group name="InvestonDeal">
+        <method signature="AInvestonDealTest.bInvestonDeal()[pri:20, instance:src.com.pack.common.tests.AInvestonDealTest@7403c468]" name="bInvestonDeal" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- InvestonDeal -->
+      <group name="ContactInfo">
+        <method signature="RegistrationTest.contactInfo()[pri:20, instance:src.com.pack.common.tests.RegistrationTest@2a70a3d8]" name="contactInfo" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- ContactInfo -->
+      <group name="UploadDoc">
+        <method signature="AInvestonDealTest.aUploadDocumentOnDeal()[pri:10, instance:src.com.pack.common.tests.AInvestonDealTest@7403c468]" name="aUploadDocumentOnDeal" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- UploadDoc -->
+      <group name="SelfAccreditation">
+        <method signature="RegistrationTest.selfAccredition()[pri:10, instance:src.com.pack.common.tests.RegistrationTest@2a70a3d8]" name="selfAccredition" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- SelfAccreditation -->
+      <group name="BankDetail">
+        <method signature="RegistrationTest.bankDetail()[pri:30, instance:src.com.pack.common.tests.RegistrationTest@2a70a3d8]" name="bankDetail" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- BankDetail -->
+      <group name="Deal View OpenHuddles">
+        <method signature="DealViewTest.OpenHuddlesDeal()[pri:30, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" name="OpenHuddlesDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View OpenHuddles -->
+      <group name="AddDocuments">
+        <method signature="ADealInvestorPageTest.UploadUserDocuments()[pri:50, instance:src.com.pack.common.tests.ADealInvestorPageTest@13eb8acf]" name="UploadUserDocuments" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- AddDocuments -->
+      <group name="My details View Page">
+        <method signature="IconPageTest.MyProfileDetails()[pri:20, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" name="MyProfileDetails" class="src.com.pack.common.tests.IconPageTest"/>
+      </group> <!-- My details View Page -->
+      <group name="DeleteInvestment">
+        <method signature="AInvestonDealTest.dDeleteInvestment()[pri:40, instance:src.com.pack.common.tests.AInvestonDealTest@7403c468]" name="dDeleteInvestment" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- DeleteInvestment -->
+      <group name="AddDeposit">
+        <method signature="ADealInvestorPageTest.AddDepositAmount()[pri:40, instance:src.com.pack.common.tests.ADealInvestorPageTest@13eb8acf]" name="AddDepositAmount" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- AddDeposit -->
+      <group name="Notification View Page">
+        <method signature="IconPageTest.NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" name="NotificationSet" class="src.com.pack.common.tests.IconPageTest"/>
+      </group> <!-- Notification View Page -->
+      <group name="Login">
+        <method signature="LoginPageTest.CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" name="CheckLoginPageTest" class="src.com.pack.common.tests.LoginPageTest"/>
+      </group> <!-- Login -->
+      <group name="Mandatory_Field_Check">
+        <method signature="ADealCreateTest.MandatoryFieldDeal()[pri:10, instance:src.com.pack.common.tests.ADealCreateTest@543c6f6d]" name="MandatoryFieldDeal" class="src.com.pack.common.tests.ADealCreateTest"/>
+      </group> <!-- Mandatory_Field_Check -->
+      <group name="DeleteDeal">
+        <method signature="ADeletePageTest.bdeleteDeal()[pri:20, instance:src.com.pack.common.tests.ADeletePageTest@51c8530f]" name="bdeleteDeal" class="src.com.pack.common.tests.ADeletePageTest"/>
+      </group> <!-- DeleteDeal -->
+      <group name="Deal View MyOrigination">
+        <method signature="DealViewTest.MyOriginationDeal()[pri:20, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" name="MyOriginationDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View MyOrigination -->
+      <group name="Create Deal ">
+        <method signature="CDealCreateTest.dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" name="dealDetails" class="src.com.pack.common.tests.CDealCreateTest"/>
+      </group> <!-- Create Deal  -->
+      <group name="VerifyInvestorAmount">
+        <method signature="AInvestonDealTest.cverifyAmountInvestor()[pri:30, instance:src.com.pack.common.tests.AInvestonDealTest@7403c468]" name="cverifyAmountInvestor" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- VerifyInvestorAmount -->
+    </groups>
+    <test started-at="2021-09-16T17:07:45Z" name="Command line test" finished-at="2021-09-16T17:07:49Z" duration-ms="4061">
+      <class name="src.com.pack.common.tests.DealViewTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" started-at="2021-09-16T17:07:46Z" name="initializeTestBaseSetup" finished-at="2021-09-16T17:07:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" started-at="2021-09-16T17:07:46Z" name="setUp" finished-at="2021-09-16T17:07:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" started-at="2021-09-16T17:07:46Z" name="afterMethod" finished-at="2021-09-16T17:07:47Z" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DealViewTest.InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@c81cdd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@c81cdd1]" started-at="2021-09-16T17:07:46Z" name="InvitationsDeal" description="Check invitations for a deal and invest in one of them" finished-at="2021-09-16T17:07:46Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or definedat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvitationsDeal -->
+      </class> <!-- src.com.pack.common.tests.DealViewTest -->
+      <class name="src.com.pack.common.tests.CDealCreateTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" started-at="2021-09-16T17:07:48Z" name="initializeTestBaseSetup" finished-at="2021-09-16T17:07:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method signature="dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" started-at="2021-09-16T17:07:48Z" name="dealDetails" description="Client creates a deal" finished-at="2021-09-16T17:07:48Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or definedat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealDetails -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" started-at="2021-09-16T17:07:48Z" name="setUp" finished-at="2021-09-16T17:07:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" started-at="2021-09-16T17:07:48Z" name="afterMethod" finished-at="2021-09-16T17:07:49Z" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CDealCreateTest.dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@43738a82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@43738a82]" started-at="2021-09-16T17:07:49Z" name="tearDown" finished-at="2021-09-16T17:07:49Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.CDealCreateTest -->
+      <class name="src.com.pack.common.tests.IconPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" started-at="2021-09-16T17:07:47Z" name="initializeTestBaseSetup" finished-at="2021-09-16T17:07:47Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" started-at="2021-09-16T17:07:47Z" name="setUp" finished-at="2021-09-16T17:07:47Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" started-at="2021-09-16T17:07:47Z" name="NotificationSet" description="Check notification and Set Prefrences" finished-at="2021-09-16T17:07:47Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or definedat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationSet -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1fc2b765]" started-at="2021-09-16T17:07:47Z" name="afterMethod" finished-at="2021-09-16T17:07:48Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=IconPageTest.NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1fc2b765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- src.com.pack.common.tests.IconPageTest -->
+      <class name="src.com.pack.common.tests.LoginPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" started-at="2021-09-16T17:07:45Z" name="initializeTestBaseSetup" finished-at="2021-09-16T17:07:45Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or definedat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" started-at="2021-09-16T17:07:45Z" name="setUp" finished-at="2021-09-16T17:07:45Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" started-at="2021-09-16T17:07:45Z" name="CheckLoginPageTest" description="Login Page Verification" finished-at="2021-09-16T17:07:45Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or definedat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginPageTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" started-at="2021-09-16T17:07:45Z" name="afterMethod" finished-at="2021-09-16T17:07:46Z" duration-ms="1004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@75881071]" started-at="2021-09-16T17:07:46Z" name="tearDown" finished-at="2021-09-16T17:07:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

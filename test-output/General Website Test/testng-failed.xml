@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [General Website Test]" guice-stage="DEVELOPMENT">
+  <parameter name="uCompany" value="aihuddle"/>
+  <parameter name="cURL" value="https://tic-client-uat.azurewebsites.net/"/>
+  <parameter name="aURL" value="https://tic-admin-uat.azurewebsites.net/"/>
+  <parameter name="aUser" value="TU00000001"/>
+  <parameter name="file" value="C:\\Users\\Ricky\\Downloads\\Terms and Conditions.pdf"/>
+  <parameter name="cPassword" value="!Password1"/>
+  <parameter name="depositdata" value="data\\deposits.txt"/>
+  <parameter name="sitename" value="iHuddle"/>
+  <parameter name="outlookPassword" value=""/>
+  <parameter name="env" value="UAT"/>
+  <parameter name="aPassword" value="Tu00000001"/>
+  <parameter name="outlookemail" value="rajeev@atomcto.com"/>
+  <listeners>
+    <listener class-name="src.com.easy.TestNGCustomReportListener"/>
+    <listener class-name="src.com.pack.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Tested on Client Website on Chrome(failed)">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="src.com.pack.common.tests.SignUpTest">
+        <methods>
+          <include name="verifyuserinAdmin"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Signup"/>
+          <include name="tearDown"/>
+          <include name="VerifyEmail"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- src.com.pack.common.tests.SignUpTest -->
+    </classes>
+  </test> <!-- Tested on Client Website on Chrome(failed) -->
+</suite> <!-- Failed suite [General Website Test] -->

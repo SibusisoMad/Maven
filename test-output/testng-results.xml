@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="0" failed="1" skipped="26">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-16T16:36:59Z" name="Default suite" finished-at="2021-09-16T16:37:27Z" duration-ms="27506">
+    <groups>
+      <group name="Update_Investor_Contact_inAdmin">
+        <method signature="ADealInvestorPageTest.updateContactDetail()[pri:20, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" name="updateContactDetail" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+        <method signature="ADealInvestorPageTest.updateRegistrationStatus()[pri:30, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" name="updateRegistrationStatus" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- Update_Investor_Contact_inAdmin -->
+      <group name="DeleteImage">
+        <method signature="ADeletePageTest.adeleteInvestorImage()[pri:10, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" name="adeleteInvestorImage" class="src.com.pack.common.tests.ADeletePageTest"/>
+      </group> <!-- DeleteImage -->
+      <group name="SignUp">
+        <method signature="SignUpTest.Signup()[pri:10, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" name="Signup" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- SignUp -->
+      <group name="Check_User_inAdmin">
+        <method signature="ADealInvestorPageTest.verifyuserinAdmin()[pri:10, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" name="verifyuserinAdmin" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+        <method signature="SignUpTest.verifyuserinAdmin()[pri:20, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" name="verifyuserinAdmin" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- Check_User_inAdmin -->
+      <group name="Document">
+        <method signature="RegistrationTest.documents()[pri:40, instance:src.com.pack.common.tests.RegistrationTest@9816741]" name="documents" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- Document -->
+      <group name="EmailVerify">
+        <method signature="SignUpTest.VerifyEmail()[pri:30, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" name="VerifyEmail" class="src.com.pack.common.tests.SignUpTest"/>
+      </group> <!-- EmailVerify -->
+      <group name="Create_Deal_inAdmin">
+        <method signature="ADealCreateTest.CreateDealAdmin()[pri:20, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" name="CreateDealAdmin" class="src.com.pack.common.tests.ADealCreateTest"/>
+      </group> <!-- Create_Deal_inAdmin -->
+      <group name="Deal View Invitations">
+        <method signature="DealViewTest.InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@700fb871]" name="InvitationsDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View Invitations -->
+      <group name="InvestonDeal">
+        <method signature="AInvestonDealTest.bInvestonDeal()[pri:20, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" name="bInvestonDeal" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- InvestonDeal -->
+      <group name="ContactInfo">
+        <method signature="RegistrationTest.contactInfo()[pri:20, instance:src.com.pack.common.tests.RegistrationTest@9816741]" name="contactInfo" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- ContactInfo -->
+      <group name="UploadDoc">
+        <method signature="AInvestonDealTest.aUploadDocumentOnDeal()[pri:10, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" name="aUploadDocumentOnDeal" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- UploadDoc -->
+      <group name="SelfAccreditation">
+        <method signature="RegistrationTest.selfAccredition()[pri:10, instance:src.com.pack.common.tests.RegistrationTest@9816741]" name="selfAccredition" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- SelfAccreditation -->
+      <group name="BankDetail">
+        <method signature="RegistrationTest.bankDetail()[pri:30, instance:src.com.pack.common.tests.RegistrationTest@9816741]" name="bankDetail" class="src.com.pack.common.tests.RegistrationTest"/>
+      </group> <!-- BankDetail -->
+      <group name="Deal View OpenHuddles">
+        <method signature="DealViewTest.OpenHuddlesDeal()[pri:30, instance:src.com.pack.common.tests.DealViewTest@700fb871]" name="OpenHuddlesDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View OpenHuddles -->
+      <group name="AddDocuments">
+        <method signature="ADealInvestorPageTest.UploadUserDocuments()[pri:50, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" name="UploadUserDocuments" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- AddDocuments -->
+      <group name="My details View Page">
+        <method signature="IconPageTest.MyProfileDetails()[pri:20, instance:src.com.pack.common.tests.IconPageTest@1224144a]" name="MyProfileDetails" class="src.com.pack.common.tests.IconPageTest"/>
+      </group> <!-- My details View Page -->
+      <group name="DeleteInvestment">
+        <method signature="AInvestonDealTest.dDeleteInvestment()[pri:40, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" name="dDeleteInvestment" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- DeleteInvestment -->
+      <group name="AddDeposit">
+        <method signature="ADealInvestorPageTest.AddDepositAmount()[pri:40, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" name="AddDepositAmount" class="src.com.pack.common.tests.ADealInvestorPageTest"/>
+      </group> <!-- AddDeposit -->
+      <group name="Notification View Page">
+        <method signature="IconPageTest.NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1224144a]" name="NotificationSet" class="src.com.pack.common.tests.IconPageTest"/>
+      </group> <!-- Notification View Page -->
+      <group name="Login">
+        <method signature="LoginPageTest.CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" name="CheckLoginPageTest" class="src.com.pack.common.tests.LoginPageTest"/>
+      </group> <!-- Login -->
+      <group name="Mandatory_Field_Check">
+        <method signature="ADealCreateTest.MandatoryFieldDeal()[pri:10, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" name="MandatoryFieldDeal" class="src.com.pack.common.tests.ADealCreateTest"/>
+      </group> <!-- Mandatory_Field_Check -->
+      <group name="DeleteDeal">
+        <method signature="ADeletePageTest.bdeleteDeal()[pri:20, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" name="bdeleteDeal" class="src.com.pack.common.tests.ADeletePageTest"/>
+      </group> <!-- DeleteDeal -->
+      <group name="Deal View MyOrigination">
+        <method signature="DealViewTest.MyOriginationDeal()[pri:20, instance:src.com.pack.common.tests.DealViewTest@700fb871]" name="MyOriginationDeal" class="src.com.pack.common.tests.DealViewTest"/>
+      </group> <!-- Deal View MyOrigination -->
+      <group name="Create Deal ">
+        <method signature="CDealCreateTest.dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" name="dealDetails" class="src.com.pack.common.tests.CDealCreateTest"/>
+      </group> <!-- Create Deal  -->
+      <group name="VerifyInvestorAmount">
+        <method signature="AInvestonDealTest.cverifyAmountInvestor()[pri:30, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" name="cverifyAmountInvestor" class="src.com.pack.common.tests.AInvestonDealTest"/>
+      </group> <!-- VerifyInvestorAmount -->
+    </groups>
+    <test started-at="2021-09-16T16:36:59Z" name="Default test" finished-at="2021-09-16T16:37:27Z" duration-ms="27506">
+      <class name="src.com.pack.common.tests.AInvestonDealTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:08Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:08Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:08Z" name="setUp" finished-at="2021-09-16T16:37:08Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aUploadDocumentOnDeal()[pri:10, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:08Z" name="aUploadDocumentOnDeal" description="Upload Document on Deal" finished-at="2021-09-16T16:37:08Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aUploadDocumentOnDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:08Z" name="afterMethod" finished-at="2021-09-16T16:37:09Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AInvestonDealTest.aUploadDocumentOnDeal()[pri:10, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="bInvestonDeal()[pri:20, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:13Z" name="bInvestonDeal" description="Invest on Deal" finished-at="2021-09-16T16:37:13Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bInvestonDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:13Z" name="afterMethod" finished-at="2021-09-16T16:37:14Z" duration-ms="1004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AInvestonDealTest.bInvestonDeal()[pri:20, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="cverifyAmountInvestor()[pri:30, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:19Z" name="cverifyAmountInvestor" description="Check Balance in Investor" finished-at="2021-09-16T16:37:19Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cverifyAmountInvestor -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:19Z" name="afterMethod" finished-at="2021-09-16T16:37:20Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AInvestonDealTest.cverifyAmountInvestor()[pri:30, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dDeleteInvestment()[pri:40, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:24Z" name="dDeleteInvestment" description="Delete Investment of Investor" finished-at="2021-09-16T16:37:24Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dDeleteInvestment -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:24Z" name="afterMethod" finished-at="2021-09-16T16:37:25Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AInvestonDealTest.dDeleteInvestment()[pri:40, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.AInvestonDealTest@f58853c]" started-at="2021-09-16T16:37:25Z" name="tearDown" finished-at="2021-09-16T16:37:25Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.AInvestonDealTest -->
+      <class name="src.com.pack.common.tests.ADeletePageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:03Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:03Z" name="setUp" finished-at="2021-09-16T16:37:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adeleteInvestorImage()[pri:10, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:03Z" name="adeleteInvestorImage" description="Delete Document of Investor" finished-at="2021-09-16T16:37:03Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adeleteInvestorImage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:03Z" name="afterMethod" finished-at="2021-09-16T16:37:04Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADeletePageTest.adeleteInvestorImage()[pri:10, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="bdeleteDeal()[pri:20, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:10Z" name="bdeleteDeal" description="Delete a Deal" finished-at="2021-09-16T16:37:10Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdeleteDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:10Z" name="afterMethod" finished-at="2021-09-16T16:37:11Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADeletePageTest.bdeleteDeal()[pri:20, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.ADeletePageTest@6f36c2f0]" started-at="2021-09-16T16:37:11Z" name="tearDown" finished-at="2021-09-16T16:37:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.ADeletePageTest -->
+      <class name="src.com.pack.common.tests.DealViewTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:06Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:06Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:06Z" name="setUp" finished-at="2021-09-16T16:37:06Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:06Z" name="InvitationsDeal" description="Check invitations for a deal and invest in one of them" finished-at="2021-09-16T16:37:06Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvitationsDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:06Z" name="afterMethod" finished-at="2021-09-16T16:37:07Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DealViewTest.InvitationsDeal()[pri:10, instance:src.com.pack.common.tests.DealViewTest@700fb871] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="MyOriginationDeal()[pri:20, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:16Z" name="MyOriginationDeal" description="Check MyOrigination and edit a deal" finished-at="2021-09-16T16:37:16Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyOriginationDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:16Z" name="afterMethod" finished-at="2021-09-16T16:37:17Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DealViewTest.MyOriginationDeal()[pri:20, instance:src.com.pack.common.tests.DealViewTest@700fb871] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="OpenHuddlesDeal()[pri:30, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:21Z" name="OpenHuddlesDeal" description="Check Openhuddles and Invest in a deal" finished-at="2021-09-16T16:37:21Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHuddlesDeal -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:21Z" name="afterMethod" finished-at="2021-09-16T16:37:22Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DealViewTest.OpenHuddlesDeal()[pri:30, instance:src.com.pack.common.tests.DealViewTest@700fb871] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.DealViewTest@700fb871]" started-at="2021-09-16T16:37:22Z" name="tearDown" finished-at="2021-09-16T16:37:22Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.DealViewTest -->
+      <class name="src.com.pack.common.tests.ADealInvestorPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:02Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:02Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:02Z" name="setUp" finished-at="2021-09-16T16:37:02Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:02Z" name="afterMethod" finished-at="2021-09-16T16:37:03Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealInvestorPageTest.verifyuserinAdmin()[pri:10, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyuserinAdmin()[pri:10, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:02Z" name="verifyuserinAdmin" description="Verify Signup User in Admin" finished-at="2021-09-16T16:37:02Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserinAdmin -->
+        <test-method signature="updateContactDetail()[pri:20, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:12Z" name="updateContactDetail" description="Update Investor contact Detail from Admin" finished-at="2021-09-16T16:37:12Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContactDetail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:12Z" name="afterMethod" finished-at="2021-09-16T16:37:13Z" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealInvestorPageTest.updateContactDetail()[pri:20, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="updateRegistrationStatus()[pri:30, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:18Z" name="updateRegistrationStatus" description="Update Investor contact Detail from Admin" finished-at="2021-09-16T16:37:18Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRegistrationStatus -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:18Z" name="afterMethod" finished-at="2021-09-16T16:37:19Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealInvestorPageTest.updateRegistrationStatus()[pri:30, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="AddDepositAmount()[pri:40, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:23Z" name="AddDepositAmount" description="Add Depost" finished-at="2021-09-16T16:37:23Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDepositAmount -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:23Z" name="afterMethod" finished-at="2021-09-16T16:37:24Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealInvestorPageTest.AddDepositAmount()[pri:40, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="UploadUserDocuments()[pri:50, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:26Z" name="UploadUserDocuments" description="Add user Documents" finished-at="2021-09-16T16:37:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadUserDocuments -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:26Z" name="afterMethod" finished-at="2021-09-16T16:37:27Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealInvestorPageTest.UploadUserDocuments()[pri:50, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.ADealInvestorPageTest@6e2aa843]" started-at="2021-09-16T16:37:27Z" name="tearDown" finished-at="2021-09-16T16:37:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.ADealInvestorPageTest -->
+      <class name="src.com.pack.common.tests.ADealCreateTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:07Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:07Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:07Z" name="setUp" finished-at="2021-09-16T16:37:07Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:07Z" name="afterMethod" finished-at="2021-09-16T16:37:08Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealCreateTest.MandatoryFieldDeal()[pri:10, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="MandatoryFieldDeal()[pri:10, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:07Z" name="MandatoryFieldDeal" description="Check Message for Mandatory Fields" finished-at="2021-09-16T16:37:07Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MandatoryFieldDeal -->
+        <test-method signature="CreateDealAdmin()[pri:20, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:11Z" name="CreateDealAdmin" description="Create a new Deal in Admin" finished-at="2021-09-16T16:37:11Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDealAdmin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:11Z" name="afterMethod" finished-at="2021-09-16T16:37:12Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ADealCreateTest.CreateDealAdmin()[pri:20, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.ADealCreateTest@3b35a229]" started-at="2021-09-16T16:37:12Z" name="tearDown" finished-at="2021-09-16T16:37:12Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.ADealCreateTest -->
+      <class name="src.com.pack.common.tests.RegistrationTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:09Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:09Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:09Z" name="setUp" finished-at="2021-09-16T16:37:09Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selfAccredition()[pri:10, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:09Z" name="selfAccredition" description="Select Self Accreditation Option" finished-at="2021-09-16T16:37:09Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selfAccredition -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:09Z" name="afterMethod" finished-at="2021-09-16T16:37:10Z" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.selfAccredition()[pri:10, instance:src.com.pack.common.tests.RegistrationTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="contactInfo()[pri:20, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:17Z" name="contactInfo" description="Contact Detail of user" finished-at="2021-09-16T16:37:17Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInfo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:17Z" name="afterMethod" finished-at="2021-09-16T16:37:18Z" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.contactInfo()[pri:20, instance:src.com.pack.common.tests.RegistrationTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="bankDetail()[pri:30, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:22Z" name="bankDetail" description="Bank Detail of user" finished-at="2021-09-16T16:37:22Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankDetail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:22Z" name="afterMethod" finished-at="2021-09-16T16:37:23Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.bankDetail()[pri:30, instance:src.com.pack.common.tests.RegistrationTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="documents()[pri:40, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:25Z" name="documents" description="Document Upload of user" finished-at="2021-09-16T16:37:25Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:25Z" name="afterMethod" finished-at="2021-09-16T16:37:26Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.documents()[pri:40, instance:src.com.pack.common.tests.RegistrationTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.RegistrationTest@9816741]" started-at="2021-09-16T16:37:26Z" name="tearDown" finished-at="2021-09-16T16:37:26Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.RegistrationTest -->
+      <class name="src.com.pack.common.tests.SignUpTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:05Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:05Z" name="setUp" finished-at="2021-09-16T16:37:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Signup()[pri:10, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:05Z" name="Signup" description="Signup to iHuddle" finished-at="2021-09-16T16:37:05Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:05Z" name="afterMethod" finished-at="2021-09-16T16:37:06Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.Signup()[pri:10, instance:src.com.pack.common.tests.SignUpTest@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyuserinAdmin()[pri:20, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:15Z" name="verifyuserinAdmin" description="Verify Signup User in Admin" finished-at="2021-09-16T16:37:15Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserinAdmin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:15Z" name="afterMethod" finished-at="2021-09-16T16:37:16Z" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.verifyuserinAdmin()[pri:20, instance:src.com.pack.common.tests.SignUpTest@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="VerifyEmail()[pri:30, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:20Z" name="VerifyEmail" description="Verify Signup Email" finished-at="2021-09-16T16:37:20Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:20Z" name="afterMethod" finished-at="2021-09-16T16:37:21Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.VerifyEmail()[pri:30, instance:src.com.pack.common.tests.SignUpTest@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.SignUpTest@29f7cefd]" started-at="2021-09-16T16:37:21Z" name="tearDown" finished-at="2021-09-16T16:37:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.SignUpTest -->
+      <class name="src.com.pack.common.tests.IconPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:04Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:04Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:04Z" name="setUp" finished-at="2021-09-16T16:37:04Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:04Z" name="NotificationSet" description="Check notification and Set Prefrences" finished-at="2021-09-16T16:37:04Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationSet -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:04Z" name="afterMethod" finished-at="2021-09-16T16:37:05Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=IconPageTest.NotificationSet()[pri:10, instance:src.com.pack.common.tests.IconPageTest@1224144a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="MyProfileDetails()[pri:20, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:14Z" name="MyProfileDetails" description="Check My details and Edit Details" finished-at="2021-09-16T16:37:14Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:14Z" name="afterMethod" finished-at="2021-09-16T16:37:15Z" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=IconPageTest.MyProfileDetails()[pri:20, instance:src.com.pack.common.tests.IconPageTest@1224144a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.IconPageTest@1224144a]" started-at="2021-09-16T16:37:15Z" name="tearDown" finished-at="2021-09-16T16:37:15Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.IconPageTest -->
+      <class name="src.com.pack.common.tests.CDealCreateTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" started-at="2021-09-16T16:37:01Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" started-at="2021-09-16T16:37:01Z" name="setUp" finished-at="2021-09-16T16:37:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" started-at="2021-09-16T16:37:01Z" name="dealDetails" description="Client creates a deal" finished-at="2021-09-16T16:37:01Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" started-at="2021-09-16T16:37:01Z" name="afterMethod" finished-at="2021-09-16T16:37:02Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CDealCreateTest.dealDetails()[pri:10, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.CDealCreateTest@1e16c0aa]" started-at="2021-09-16T16:37:02Z" name="tearDown" finished-at="2021-09-16T16:37:02Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.CDealCreateTest -->
+      <class name="src.com.pack.common.tests.LoginPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" started-at="2021-09-16T16:36:59Z" name="initializeTestBaseSetup" finished-at="2021-09-16T16:37:00Z" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[param-val-not-found]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iHuddle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tic-client-uat.azurewebsites.net/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aihuddle]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://tic-admin-uat.azurewebsites.net/]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TU00000001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tu00000001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" started-at="2021-09-16T16:37:00Z" name="setUp" finished-at="2021-09-16T16:37:00Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e81e5ac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" started-at="2021-09-16T16:37:00Z" name="CheckLoginPageTest" description="Login Page Verification" finished-at="2021-09-16T16:37:00Z" duration-ms="46" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is nullat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)at src.com.pack.common.pageobjects.LoginPage.submitBtn(LoginPage.java:65)at src.com.pack.common.tests.LoginPageTest.CheckLoginPageTest(LoginPageTest.java:28)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginPageTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" started-at="2021-09-16T16:37:00Z" name="afterMethod" finished-at="2021-09-16T16:37:01Z" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLoginPageTest status=FAILURE method=LoginPageTest.CheckLoginPageTest()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:src.com.pack.common.tests.LoginPageTest@13d73f29]" started-at="2021-09-16T16:37:01Z" name="tearDown" finished-at="2021-09-16T16:37:01Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "src.com.pack.base.TestBaseSetup.driver" is nullat src.com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:207)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.com.pack.common.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
